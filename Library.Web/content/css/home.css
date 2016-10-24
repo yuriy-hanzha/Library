@@ -1,0 +1,61 @@
+﻿.library-container {
+    padding: 5% 2%;
+}
+
+    .library-container input {
+        margin-bottom: 15px;
+    }
+
+    .library-container button {
+        width: 100%;
+    }
+
+.dashboard {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 24%
+}
+
+.filter {
+    vertical-align: top;
+    margin-bottom: 40px;
+}
+
+.grid {
+    vertical-align: top;
+    margin-left: 5%;
+    display: inline-block;
+    width: 70%;
+}
+
+.g-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 3rem;
+}
+
+    .g-row div {
+        display: flex;
+        align-items: center;
+    }
+
+.number {
+    width: 5%;
+}
+
+.name {
+    width: 25%;
+}
+
+.author {
+    width: 30%;
+}
+
+.year {
+    width: 15%;
+}
+
+.house {
+    width: 25%;
+}

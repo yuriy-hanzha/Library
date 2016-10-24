@@ -1,0 +1,13 @@
+﻿@media(max-width: 839px){
+    .dashboard{
+        padding: 0 20%;
+        display: block;
+        width: 100%;
+    }
+
+    .grid{
+        display: block;
+        margin-left: 0;
+        width: 100%
+    }
+}

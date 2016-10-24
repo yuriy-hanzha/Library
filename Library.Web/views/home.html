@@ -1,0 +1,35 @@
+﻿<div ng-controller="homeController" ng-init="init()" class="library-container">
+    
+    <div class="dashboard">
+        <div class="filter">
+            <input type="text" class="form-control" placeholder="Type to search..." ng-model="FilterText" />
+        </div>
+
+        <form book-form" ng-submit="AddBook()">
+            <input type="text" class="form-control" ng-model="Book.Name" required placeholder="Book name" />
+            <input type="text" class="form-control" ng-model="Book.Author" placeholder="Author name" />
+            <input type="number" class="form-control" ng-model="Book.PublishingYear" ng-required="Book.PublishingYear" max="{{MaxYear}}" placeholder="Year of publishing" />
+            <input type="text" class="form-control" ng-model="Book.PublishingHouse" placeholder="Name of publishing house" />
+            <button class="btn btn-default" type="submit">Add</button>
+        </form>
+    </div>
+
+    <div class="grid panel panel-default">
+        <div class="g-row panel-body">
+            <div class="number"><span>#</span></div>
+            <div class="name"><span>Name</span></div>
+            <div class="author"><span>Author</span></div>
+            <div class="year"><span>Year</span></div>
+            <div class="house"><span>Publishing House</span></div>
+        </div>
+        <div class="panel-footer">
+            <div class="g-row" ng-repeat="book in DisplayedBooks">
+                <div class="number"><span ng-bind="$index+1"></span></div>
+                <div class="name"><span ng-bind="book.Name"></span></div>
+                <div class="author"><span ng-bind="book.Author"></span></div>
+                <div class="year"><span ng-bind="book.PublishingYear"></span></div>
+                <div class="house"><span ng-bind="book.PublishingHouse"></span></div>
+            </div>
+        </div>
+    </div>
+</div>

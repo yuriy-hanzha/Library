@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\yuriy\documents\github\library\library.server\controllers\librarycontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Yuriy\Documents\GitHub\Library\Library.Server.Tests\Controllers\LibraryControllerTest.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\users\yuriy\documents\github\library\library.web\index.html</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Library/True/SqlTable/dbo.Books.sql</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\Yuriy\Documents\GitHub\Library\Library.Server\Web.config</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
